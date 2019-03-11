@@ -6,7 +6,7 @@
 /*   By: qsebasti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/21 16:44:27 by qsebasti          #+#    #+#             */
-/*   Updated: 2019/02/26 20:02:44 by qsebasti         ###   ########.fr       */
+/*   Updated: 2019/03/11 14:17:07 by qsebasti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -133,5 +133,4 @@ void		apply_texture(t_env *e)
 	e->mat[e->itf.item.mat].diffuse.red = 0;
 	e->mat[e->itf.item.mat].diffuse.green = 0;
 	e->mat[e->itf.item.mat].diffuse.blue = 0;
-	printf("imgw %d, imgh %d\n", e->mat[e->itf.item.mat].tex.w, e->mat[e->itf.item.mat].tex.h);
 }
