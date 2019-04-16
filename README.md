@@ -54,7 +54,7 @@ ____
 
 ## Installing and launch
 
-    git clone vogsphere@vogsphere.42.fr:intra/2018/activities/rt/squiquem ~/RT
+    git clone https://github.com/qsebasti/RT
     cd ~/RT && make && ./RT scenes/scene1.xml
 
 Important: you need the libpng library for the screenshot feature. You will also need change the path where you can find that library in the Makefile at `$(INCPNG)` and `$(LIBPNG)`.
